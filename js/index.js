@@ -60,7 +60,7 @@ tinymce.init({
 
   document.querySelector("#registrar-btn").addEventListener("click", ()=>{
     let nombre = document.querySelector("#nombre-txt").value;
-    let descripcion = tinymce.get("descripcion-txt").getContent;//solo para tinymce
+    let descripcion = tinymce.get("descripcion-txt").getContent();//solo para tinymce
     let ciudad = document.querySelector("#ciudad-select").value;
     let crimenes = document.querySelector("#crimenes-txt").value;
 
